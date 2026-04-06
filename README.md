@@ -1,25 +1,42 @@
 <p align="center">
-  <h1 align="center">🛡️ DAO Treasury Risk Guardian</h1>
-  <p align="center">
-    Real-time monitoring & risk detection system for DAO treasury wallets
-  </p>
+  <img width="1536" height="450" alt="DAO" src="https://github.com/user-attachments/assets/cab5c778-3de6-465b-98f1-a2d49e2b6b72" />
+</p>
+
+
+<h1 align="center">🛡️ DAO Treasury Risk Guardian</h1>
+
+<p align="center">
+  Real-time monitoring & risk detection system for DAO treasury wallets
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-Backend-3C873A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React-Dashboard-61DAFB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Ethers.js-Web3-627EEA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active%20Development-blue?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-architecture">Architecture</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="#-getting-started">Getting Started</a>
 </p>
 
 ---
 
 ## 🚨 Overview
 
-**DAO Treasury Risk Guardian** is a full-stack Web3 monitoring system that tracks treasury wallets in real time and detects risk events such as:
-
-- 🔻 Sudden balance drops  
-- 🧠 Suspicious activity  
-- ⚠️ Risk anomalies  
+**DAO Treasury Risk Guardian** is a full-stack Web3 monitoring system designed to track treasury wallets in real-time and detect risky activity before it becomes a problem.
 
 Built for:
 - DAOs  
-- Protocols  
+- Protocol teams  
 - Treasury managers  
-- Security teams  
+- Web3 security teams  
 
 ---
 
@@ -27,11 +44,11 @@ Built for:
 
 Most DAOs:
 
-- Do NOT monitor treasury wallets in real-time  
+- Do NOT monitor treasury wallets continuously  
 - Detect issues too late  
-- Lack automated risk alerting  
+- Lack automated alerting systems  
 
-👉 Result: Loss of funds, delayed response, poor visibility
+👉 Result: delayed response, financial loss, poor visibility
 
 ---
 
@@ -40,9 +57,9 @@ Most DAOs:
 This system provides:
 
 - 🔄 Continuous wallet tracking  
-- 📊 Risk analysis engine  
+- 📊 Risk detection engine  
 - 🚨 Instant alert generation  
-- 📡 Real-time dashboard visibility  
+- 📡 Real-time dashboard  
 
 ---
 
@@ -53,6 +70,7 @@ Tracker Worker → MongoDB → Risk Engine → Alerts → Dashboard
                                   ↓
                            (Telegram - coming next)
 ```
+
 ## ⚙️ Tech Stack
 
 ### Backend
@@ -126,9 +144,48 @@ Tracker Worker → MongoDB → Risk Engine → Alerts → Dashboard
 
 ---
 
-# 🚀 Next Upgrade (important)
 
-👉 Add this right below:
+## Add screenshots section
+
+Create an `assets` folder in the repo and save your screenshots as:
+
+- `assets/dashboard.png`
+- `assets/alerts.png`
+- `assets/treasuries.png`
+
+Then add:
 
 ```md
 ## 📸 Screenshots
+
+### Dashboard
+![Dashboard](assets/dashboard.png)
+
+### Alerts
+![Alerts](assets/alerts.png)
+
+### Treasuries
+![Treasuries](assets/treasuries.png)
+```
+---
+## 🗺️ Roadmap
+
+- [x] JWT auth
+- [x] Treasury management
+- [x] Alerts API
+- [x] MongoDB persistence
+- [x] Tracker worker
+- [x] Risk engine worker
+- [x] Dashboard UI
+- [ ] Telegram notifications
+- [ ] ERC20 balance tracking
+- [ ] Large outflow detection
+- [ ] Multi-chain monitoring
+- [ ] Slack / email alerts
+- [ ] Historical analytics
+
+## 📬 Contact
+
+This project is being developed as part of a larger vision to build Web3 treasury monitoring and risk intelligence tools for DAOs, protocols, and crypto-native teams.
+
+If you want to collaborate, test, or discuss productization, feel free to connect.
