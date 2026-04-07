@@ -155,18 +155,21 @@ Create an `assets` folder in the repo and save your screenshots as:
 
 Then add:
 
-```md
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](assets/dashboard.png)
+<p align="center">
+
+<img width="1251" height="300" alt="image" src="https://github.com/user-attachments/assets/6fec6ee2-b0de-4380-9d61-f479562a8213" />
 
 ### Alerts
-![Alerts](assets/alerts.png)
+<img width="1251" height="587" alt="image" src="https://github.com/user-attachments/assets/4476c5d0-8da7-473a-8db7-1d58b1357b37" />
 
 ### Treasuries
-![Treasuries](assets/treasuries.png)
+<img width="1246" height="301" alt="image" src="https://github.com/user-attachments/assets/5edd9e6d-bb15-4e4d-b850-96267fb47573" />
+</p>
 ```
+
 ---
 ## 🗺️ Roadmap
 
